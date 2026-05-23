@@ -76,6 +76,10 @@ python -m unittest discover tests/
 We use GitHub issues to track public bugs. Please ensure your description is
 clear and has sufficient instructions to be able to reproduce the issue.
 
+> **Personal note:** When filing an issue, it's also helpful to include your
+> macOS version and Apple Silicon chip (e.g. M2 Pro) since performance and bugs
+> can vary across hardware.
+
 ## License
 
 By contributing to mlx-examples, you agree that your contributions will be licensed
