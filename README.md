@@ -8,6 +8,8 @@ MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VL
 > **My tested models:** Gemma 4 27B (4-bit), Phi-4 Multimodal — both working well on M3 Max 128GB.
 >
 > **Quick note on memory:** For Gemma 4 27B at 4-bit, I found setting `--max-tokens 2048` helps avoid OOM spikes during long generations. YMMV.
+>
+> **Phi-4 Multimodal tip:** When doing audio+image at the same time, pass the image first in the prompt — I got better results that way than interleaving.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -48,5 +50,3 @@ Some models have detailed documentation with prompt formats, examples, and best 
 | MiniCPM-o | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/minicpmo/README.md) |
 | Phi-4 Multimodal | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/phi4mm/README.md) |
 | MolmoPoint | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/molmo_point/README.md) |
-| Moondream3 | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/moondream3/README.md) |
-| Gemma 4 | [Docs](https://github.com/Bl
