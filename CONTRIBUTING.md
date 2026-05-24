@@ -78,7 +78,9 @@ clear and has sufficient instructions to be able to reproduce the issue.
 
 > **Personal note:** When filing an issue, it's also helpful to include your
 > macOS version and Apple Silicon chip (e.g. M2 Pro) since performance and bugs
-> can vary across hardware.
+> can vary across hardware. Also include the MLX and mlx-vlm versions you're
+> using (`pip show mlx mlx-vlm`) — this has saved me a lot of back-and-forth
+> when debugging issues.
 
 ## License
 
