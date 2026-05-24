@@ -4,6 +4,8 @@
 MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) and Omni Models (VLMs with audio and video support) on your Mac using MLX.
 
 > **Personal fork note:** I'm using this primarily for experimenting with Gemma 4 and Phi-4 Multimodal. If you stumbled here, the [upstream repo](https://github.com/Blaizzy/mlx-vlm) is the one you probably want.
+>
+> **My tested models:** Gemma 4 27B (4-bit), Phi-4 Multimodal — both working well on M3 Max 128GB.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -46,6 +48,4 @@ Some models have detailed documentation with prompt formats, examples, and best 
 | MolmoPoint | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/molmo_point/README.md) |
 | Moondream3 | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/moondream3/README.md) |
 | Gemma 4 | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/gemma4/README.md) |
-| Falcon-OCR | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/falcon_ocr/README.md) |
-| Granite Vision 3.2 | [Docs](https://github.com/Blaizzy/mlx-vlm/blob/main/mlx_vlm/models/granite_vision/README.md) |
-| Granite 4.0 Vision | [Docs](h
+| Falcon-OCR | [Docs](https://github.com/B
